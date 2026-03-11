@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Modern Image Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1 class="title">Modern Image Gallery</h1>
+
+<div class="filters">
+<button data-filter="all">All</button>
+<button data-filter="nature">Nature</button>
+<button data-filter="city">City</button>
+<button data-filter="tech">Tech</button>
+</div>
+
+<div class="gallery">
+
+<img src="https://picsum.photos/400/300?1" class="nature">
+<img src="https://picsum.photos/400/300?2" class="city">
+<img src="https://picsum.photos/400/300?3" class="nature">
+<img src="https://picsum.photos/400/300?4" class="tech">
+<img src="https://picsum.photos/400/300?5" class="city">
+<img src="https://picsum.photos/400/300?6" class="tech">
+
+</div>
+
+<div id="lightbox">
+
+<span id="close">×</span>
+<img id="lightboxImg">
+
+<button id="prev">❮</button>
+<button id="next">❯</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
